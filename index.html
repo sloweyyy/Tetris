@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris - yzarc204</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <style>
+      body {
+        background: url("assets/background.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      canvas {
+        border: 3px dashed #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .music {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        cursor: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <iframe class="music" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/53012661&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/doctorpcircus" title="Doctor P" target="_blank" style="color: #cccccc; text-decoration: none;">Doctor P</a> · <a href="https://soundcloud.com/doctorpcircus/tetris" title="Doctor P - Tetris" target="_blank" style="color: #cccccc; text-decoration: none;">Doctor P - Tetris</a></div> -->
+    <script src="js/const.js"></script>
+    <script src="js/shape.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/pixel.js"></script>
+    <script src="js/brick.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
